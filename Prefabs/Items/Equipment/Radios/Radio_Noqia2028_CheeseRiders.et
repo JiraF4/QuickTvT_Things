@@ -17,6 +17,7 @@ GenericEntity : "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
    }
   }
   MeshObject "{5A30BAE7673C63D1}" {
+   Object "{DE6BA87DFCA531E8}Assets/Items/Equipment/Radios/Radio_Motorolla/moto.xob"
    Materials {
     MaterialAssignClass "{6105608734A2D35F}" {
      SourceMaterial "Radio_R148_01"

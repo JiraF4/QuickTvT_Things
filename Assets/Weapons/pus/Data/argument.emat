@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{FDE05A39F983F69B}Assets/Weapons/pus/Data/argument_BCR.edds"
+ NMOMap "{C538E1AB20F4A405}Assets/Weapons/pus/Data/argument_NMO.edds"
+}

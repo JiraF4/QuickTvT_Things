@@ -34,7 +34,7 @@ GenericEntity : "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" {
    }
   }
   MeshObject "{51EC93F29BA5F234}" {
-   Object "{1875570185471308}Assets/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50.xob"
+   Object "{10884F8DC6A653D6}Assets/Weapons/pus/pus1.xob"
   }
   SCR_MeleeWeaponProperties "{506CED7313494012}" {
    m_fDamage 0

@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{D106DDDEBDA63E0E}Assets/Items/Equipment/Radios/Radio_Motorolla/Data/DefaultMaterial_BCR.edds"
+ NMOMap "{E9DE664C64D16C90}Assets/Items/Equipment/Radios/Radio_Motorolla/Data/DefaultMaterial_NMO.edds"
+}
