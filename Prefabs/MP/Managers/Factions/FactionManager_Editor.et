@@ -1,0 +1,9 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "56B2B4776E6E4499"
+ Factions {
+  SCR_Faction "{6105236A2CE9F2B0}" : "{A718DBD71CA4B029}Configs/Factions/PS_Criminals_Cheese.conf" {
+  }
+  SCR_Faction "{610CC6063A888ECD}" : "{6A92E7805A788D1B}Configs/Factions/PS_Factory_workers.conf" {
+  }
+ }
+}

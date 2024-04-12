@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{B8834C17351DE963}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate ""
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61069356CFD9DA3A}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 124.288 1.002 120.624
+}

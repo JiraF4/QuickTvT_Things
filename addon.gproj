@@ -1,0 +1,83 @@
+GameProject {
+ ID "QuickTvTThings"
+ GUID "610477B8B8E90173"
+ TITLE "QuickTvT_Things"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{61056098BD25650F}" {
+      StringTableSource "{E4C0E8F1DDBF94A3}Language/Localization_QuickTvTThings.st"
+      Languages {
+       LanguageDefinition "{61056098BFD679B4}" {
+        Code "cs_cz"
+        StringTableRuntime "{B317F025A5B3DE77}Language/Localization_QuickTvTThings.cs_cz.conf"
+       }
+       LanguageDefinition "{61056098BFD67E5B}" {
+        Code "de_de"
+        StringTableRuntime "{6669EA16B610CF57}Language/Localization_QuickTvTThings.de_de.conf"
+       }
+       LanguageDefinition "{61056098BFD67E71}" {
+        Code "en_us"
+        StringTableRuntime "{3899605DDCE3CA56}Language/Localization_QuickTvTThings.en_us.conf"
+       }
+       LanguageDefinition "{61056098BFD67E0D}" {
+        Code "es_es"
+        StringTableRuntime "{FDD52DD432E1A149}Language/Localization_QuickTvTThings.es_es.conf"
+       }
+       LanguageDefinition "{61056098BFD67E1A}" {
+        Code "fr_fr"
+        StringTableRuntime "{467DD8E3D462424B}Language/Localization_QuickTvTThings.fr_fr.conf"
+       }
+       LanguageDefinition "{61056098BFD67E37}" {
+        Code "it_it"
+        StringTableRuntime "{C66157D77940C1B2}Language/Localization_QuickTvTThings.it_it.conf"
+       }
+       LanguageDefinition "{61056098BFD67EC7}" {
+        Code "ja_jp"
+        StringTableRuntime "{D67AEA454731F119}Language/Localization_QuickTvTThings.ja_jp.conf"
+       }
+       LanguageDefinition "{61056098BFD67ED0}" {
+        Code "ko_kr"
+        StringTableRuntime "{76C4C2E9D41CF226}Language/Localization_QuickTvTThings.ko_kr.conf"
+       }
+       LanguageDefinition "{61056098BFD67EE7}" {
+        Code "pl_pl"
+        StringTableRuntime "{2AB564136AF36E5A}Language/Localization_QuickTvTThings.pl_pl.conf"
+       }
+       LanguageDefinition "{61056098BFD67EF1}" {
+        Code "pt_br"
+        StringTableRuntime "{FFC2FEDF510DA4E0}Language/Localization_QuickTvTThings.pt_br.conf"
+       }
+       LanguageDefinition "{61056098BFD67C62}" {
+        Code "ru_ru"
+        StringTableRuntime "{AA83EA77CC74C196}Language/Localization_QuickTvTThings.ru_ru.conf"
+       }
+       LanguageDefinition "{61056098BFD67C06}" {
+        Code "uk_ua"
+        StringTableRuntime "{20DBBF81A05A7FC3}Language/Localization_QuickTvTThings.uk_ua.conf"
+       }
+       LanguageDefinition "{61056098BFD67C17}" {
+        Code "zh_cn"
+        StringTableRuntime "{FA6BD1BC99FAAFDE}Language/Localization_QuickTvTThings.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

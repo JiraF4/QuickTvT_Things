@@ -1,0 +1,7 @@
+SCR_AIGroup : "{2F12CFEF36B79058}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Base.et" {
+ ID "0000000000000001"
+ coords 91.796 1 103.952
+ m_aUnitPrefabSlots {
+  "{B3FCA34114806846}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Taskmaster.et" "{11F605A548991114}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Mercenary.et" "{11F605A548991114}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Mercenary.et" "{11F605A548991114}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Mercenary.et"
+ }
+}

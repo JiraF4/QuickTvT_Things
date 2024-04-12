@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Color 0.328 0.328 0.328 1
+ SpecularMul 0.86
+ RoughnessScale 0.858
+ MetalnessScale 1.269
+ BCRMap "{9FA09CF3E8EA20FE}Noqia2028.edds"
+ NormalPower 0.65
+ NMOMap "{4980106784BC6215}Assets/Items/Equipment/Radios/Radio_R148/Data/Radio_R148_01_NMO.edds"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{546E45368866B66A}Prefabs/Characters/HeadGear/Helmet_TOR/variants/Helmet_TOR_medium_black_Empty.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

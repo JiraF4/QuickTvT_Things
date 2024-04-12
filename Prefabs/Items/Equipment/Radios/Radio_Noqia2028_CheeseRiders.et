@@ -1,0 +1,28 @@
+GenericEntity : "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "stolenCheese"
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "#PS-Item_Noquia2028_Name"
+     Description "#PS-Item_Noquia2028_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     ItemDimensions 5 5 5
+     ItemVolume 90
+    }
+   }
+  }
+  MeshObject "{5A30BAE7673C63D1}" {
+   Materials {
+    MaterialAssignClass "{6105608734A2D35F}" {
+     SourceMaterial "Radio_R148_01"
+     AssignedMaterial "{3768155A322C6351}Assets/Items/Equipment/Radios/Radio_R148/Data/Radio_Noqia2028_01.emat"
+    }
+   }
+  }
+ }
+}

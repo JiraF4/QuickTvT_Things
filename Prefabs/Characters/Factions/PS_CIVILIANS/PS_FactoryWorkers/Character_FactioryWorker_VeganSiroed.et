@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{7766A2A13BB6B036}Prefabs/Characters/Factions/PS_CIVILIANS/PS_FactoryWorkers/Character_FactioryWorker_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PS-Role_VeganSiroed"
+    Icon "{24A99F601D7D8E90}UI/Textures/Editor/EditableEntities/Characters/Vegan.edds"
+   }
+  }
+ }
+ coords 73.67 1 107.531
+}

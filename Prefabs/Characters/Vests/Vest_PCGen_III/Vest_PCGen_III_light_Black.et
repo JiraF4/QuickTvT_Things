@@ -1,0 +1,28 @@
+GenericEntity : "{EC26CF977BD3B07B}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  RHS_ClothNodeStorageComponent "{5E8ECC6318C07954}" {
+   Attributes SCR_ItemAttributeCollection "{5E8ECC63152ECC55}" {
+    ItemDisplayName UIInfo "{5E8ECC6310D5F5D3}" {
+     Name "#RHS-PC_Gen_III_Light_Name"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Enabled 0
+    }
+   }
+   WornMaterialsOverride {
+    "{84CC70FE638214EE}Assets/Characters/Vests/Vest_PCGen_III/data/PC_Gen_III_Black.emat"
+   }
+   ItemMaterialsOverride {
+    "{84CC70FE638214EE}Assets/Characters/Vests/Vest_PCGen_III/data/PC_Gen_III_Black.emat"
+   }
+   DebugWornModel 0
+  }
+ }
+ coords 113.955 1 118.001
+ angleY 0
+}

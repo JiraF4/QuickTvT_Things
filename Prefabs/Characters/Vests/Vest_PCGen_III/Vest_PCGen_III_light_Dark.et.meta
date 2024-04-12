@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F40E4DF40989AA6B}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light_Dark.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

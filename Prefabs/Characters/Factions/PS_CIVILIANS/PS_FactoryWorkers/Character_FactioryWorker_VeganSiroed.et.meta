@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6D1FECE43772498A}Prefabs/Characters/Factions/PS_CIVILIANS/PS_FactoryWorkers/Character_FactioryWorker_VeganSiroed.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

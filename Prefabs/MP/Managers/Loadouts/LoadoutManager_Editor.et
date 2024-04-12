@@ -1,0 +1,13 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "56B2B47708C4F23A"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{610523695264A3EE}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sAffiliatedFaction "PS_Criminals"
+  }
+  SCR_PlayerArsenalLoadout "{61052369FA0C6D30}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sAffiliatedFaction "PS_Criminals"
+  }
+ }
+}

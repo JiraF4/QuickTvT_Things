@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7766A2A13BB6B036}Prefabs/Characters/Factions/PS_CIVILIANS/PS_FactoryWorkers/PS_FactoryWorkers_BaseLoadout.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

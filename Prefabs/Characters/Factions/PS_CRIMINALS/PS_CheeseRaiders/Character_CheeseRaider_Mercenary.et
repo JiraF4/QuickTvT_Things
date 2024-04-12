@@ -1,0 +1,87 @@
+SCR_ChimeraCharacter : "{B8834C17351DE963}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_ClothRandomizerComponent "{61056083AC95F445}" {
+   m_aJacket {
+    "{070FCE4FE5812C5D}Prefabs/Characters/Uniforms/Velocity_shirt/velocity_shirt_od.et" "{0518C70D4EFE075A}Prefabs/Characters/Uniforms/Velocity_shirt/velocity_shirt_brown.et"
+   }
+   m_aPants {
+    "{87D44A06008E0A7A}Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_OD.et" "{820D1188C5C177C5}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_OD.et"
+   }
+   m_aFootwear {
+    "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et" "{AB9E3D5524876346}Prefabs/Characters/Footwear/Boots_Faradey_1085/Footware_Faradey_1085.et"
+   }
+   m_aHeadgear {
+    "" "" "" "" ""
+   }
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PS-Role_CR_Mercenary"
+    Icon "{52833362BBA44DD9}UI/Textures/Editor/EditableEntities/Characters/ChipD.edds"
+    m_Image "{F001167B51DF1FEA}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Base.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A6BAA6863D20C816}Prefabs/Weapons/Rifles/M4A1/Rifle_M4_RAS_TrasserLess.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0C05EC01BC9518B2}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_XP_Black.et"
+    }
+    LoadoutSlotInfo Jacket {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{6A339D0CF34FCE09}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_PatchLess.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{8AC84AEE2F3E96BB}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_Merk.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61069356CFD9DA3A}" {
+    }
+    ItemsInitConfigurationItem "{6106FD4C415A15FE}" {
+     TargetStorage "t"
+    }
+    ItemsInitConfigurationItem "{6106DC11619C09AD}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6106FD4C594178BD}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et"
+     PrefabsToSpawn {
+      "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6106FD4C2883C957}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6106FD4E4A025B51}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+     }
+    }
+   }
+  }
+ }
+ coords -3.678 0.001 4.005
+}

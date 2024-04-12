@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{34AB88038127D8D5}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Bandits.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

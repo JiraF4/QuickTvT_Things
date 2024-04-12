@@ -1,0 +1,51 @@
+GenericEntity : "{283CDF7E44B5A9F8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{6106DC110BCDFC43}" {
+     SourceMaterial "LP_LOWER_ASSEMBLY"
+     AssignedMaterial "{E543CFB37312E3CA}Assets/Weapons/Rifles/m4a1/Data/LP_LOWER_ASSEMBLY_M4.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#RHS-Weapon_M4_Name"
+     Description "#RHS-Weapon_M4_Description"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDA70372C8BA}" {
+     AttachmentSlot InventoryStorageSlot Barrel {
+      Prefab "{76B3DF0E04D44214}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4_BARREL_14_5.et"
+     }
+    }
+    AttachmentSlotComponent "{6106DC110BCDFC54}" {
+     AttachmentSlot InventoryStorageSlot FLASHHIDER {
+      PivotID "barrel_muzzle"
+      Offset 0 0 -0.0061
+      Prefab "{5F800ED7D8D5B89E}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4_FLASHHIDER.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     FireModes {
+      BaseFireMode "{5E0ED058CD703F5A}" {
+       MaxBurst 3
+       UIName "Burst"
+      }
+     }
+     MagazineTemplate "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#RHS-Weapon_M4_Name"
+    Description "#RHS-Weapon_M4_Description"
+   }
+  }
+ }
+ coords 1414.819 51.063 2004.421
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{807C0101E3FDD72E}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Brothers.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

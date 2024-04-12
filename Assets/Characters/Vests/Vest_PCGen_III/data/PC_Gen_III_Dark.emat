@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.694 0.552 0.545 1
+ BCRMap "{31190823F5468049}Assets/Characters/Vests/Vest_PCGen_III/data/PC_Gen_III_BCR.edds"
+ NormalPower 0.7
+ NMOMap "{09C1B3B12C31D2D7}Assets/Characters/Vests/Vest_PCGen_III/data/PC_Gen_III_NMO.edds"
+}

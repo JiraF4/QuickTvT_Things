@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{31D9B413866F516A}Assets/Characters/Vests/Vest_PCGen_III/data/PC_Gen_III_Dark.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

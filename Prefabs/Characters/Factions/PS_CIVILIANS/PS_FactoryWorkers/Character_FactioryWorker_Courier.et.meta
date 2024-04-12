@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5DFB58C71EC5FFF8}Prefabs/Characters/Factions/PS_CIVILIANS/PS_FactoryWorkers/Character_FactioryWorker_Courier.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

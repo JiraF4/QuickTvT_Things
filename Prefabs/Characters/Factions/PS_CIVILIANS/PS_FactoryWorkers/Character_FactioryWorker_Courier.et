@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{7766A2A13BB6B036}Prefabs/Characters/Factions/PS_CIVILIANS/PS_FactoryWorkers/Character_FactioryWorker_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_KillComponent "{6115180FD5E46913}" {
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 0
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Курьер"
+    Icon "{7ECB93EBAB91DE88}UI/Textures/Editor/EditableEntities/Characters/Chip_.edds"
+   }
+  }
+ }
+ coords 2871.456 86.17 6389.831
+}

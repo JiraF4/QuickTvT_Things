@@ -1,0 +1,44 @@
+GenericEntity : "{FF333CDF80EAE252}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  RHS_ClothNodeStorageComponent "{5E8ECC6318C07954}" {
+   Attributes SCR_ItemAttributeCollection "{5E8ECC63152ECC55}" {
+    ItemDisplayName UIInfo "{5E8ECC6310D5F5D3}" {
+     Name "#RHS-PC_Gen_III_Name"
+     Description "#RHS-PC_Gen_III_Description"
+    }
+    CustomAttributes {
+     SCR_ArmoredClothItemData "{5E8ECC63E8B23F4D}" {
+      m_aProtectedHitZones {
+       "Chest"
+      }
+      m_aProtectedDamageTypes +{
+      }
+      m_eProtection TYPE_IIA
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo ArmorPlate_Left {
+     Enabled 1
+     Prefab "{9ADA1F5B703C1980}Prefabs/Characters/Vests/Vest_PCGen_III/Plates/DestructibleArmorPlate_PCGenIII_ESAPIrevJ_Left.et"
+     InheritParentSkeleton 1
+     AreaType RHS_LoadoutSAPILeftPlateSlotArea "{6106937236AEB713}" {
+     }
+    }
+    LoadoutSlotInfo ArmorPlate_Right {
+     Enabled 1
+     Prefab "{5A047A7C413EE006}Prefabs/Characters/Vests/Vest_PCGen_III/Plates/DestructibleArmorPlate_PCGenIII_ESAPIrevJ_Right.et"
+     InheritParentSkeleton 1
+     AreaType RHS_LoadoutSAPIRightPlateSlotArea "{6106937236AEB718}" {
+     }
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

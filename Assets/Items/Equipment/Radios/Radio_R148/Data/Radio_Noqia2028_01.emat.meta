@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3768155A322C6351}Assets/Items/Equipment/Radios/Radio_R148/Data/Radio_Nokia2028_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
