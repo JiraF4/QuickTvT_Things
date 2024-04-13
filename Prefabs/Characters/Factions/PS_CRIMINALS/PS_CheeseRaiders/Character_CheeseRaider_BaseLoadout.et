@@ -29,8 +29,8 @@ SCR_ChimeraCharacter : "{9C8E2A6C1DD613F4}Prefabs/Characters/Factions/PS_CRIMINA
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
-   WeaponTemplate "{0F58A05647DA1041}Prefabs/Weapons/Baton/Baton.et"
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{0F58A05647DA1042}Prefabs/Weapons/Baton/Baton.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {

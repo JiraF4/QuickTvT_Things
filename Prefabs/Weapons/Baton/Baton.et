@@ -1,79 +1,143 @@
-GenericEntity : "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" {
- ID "1F80A73AAE197BBE"
+GenericEntity {
+ ID "611939CA23CD1304"
  components {
-  TimerTriggerComponent "{5934C8C5C9FDF999}" {
-   Enabled 0
-   PROJECTILE_EFFECTS {
-    SpawnParticleEffect "{5CAADB9AD0C61F3F}" {
-     Enabled 0
-    }
+  SignalsManagerComponent "{611939CA1D2F6B91}" {
+  }
+  SoundComponent "{611939CA1D2F6BC8}" {
+   Filenames {
+    "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp" "{27C508007B4D4267}Sounds/Weapons/Grenades/_SharedData/Weapons_Grenade_Impacts_ANM8HC.acp" "{27E5FEBCE92BE40B}Sounds/Weapons/_SharedData/Melee/Weapons_Melee.acp" "{E93E101E7ACA2172}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Grenade.acp" "{91AEEEEE5656F9FE}Sounds/Weapons/Grenades/_SharedData/Weapons_Grenade_Pin_Unpin.acp" "{AC072A5AAF5C6923}Sounds/Weapons/Grenades/M67/Weapons_M67_Fuze.acp" "{982B12014C97FEF7}Sounds/Weapons/Grenades/SmokeGrenades/Weapons_SmokeGrenade_SmokeLoop.acp"
    }
   }
-  GrenadeMoveComponent "{1F80A73ADE35BFF1}" {
-   Enabled 1
-   IsDangerous 1
-  }
-  InventoryItemComponent "{51FAA3E3CF6F087A}" {
-   Attributes SCR_ItemAttributeCollection "{51FAA3E3C2D19BD4}" {
-    ItemDisplayName WeaponUIInfo "{56CA8ED293FE862B}" {
+  InventoryItemComponent "{611939CA1D2F1512}" {
+   Attributes SCR_ItemAttributeCollection "{611939CA1D2F1509}" {
+    ItemDisplayName WeaponUIInfo "{611939CA1D2F1413}" {
      Name "#PS-Weapon_Baton_Name"
      Description "#PS-Weapon_Baton_Description"
     }
-    ItemAnimationAttributes ItemAnimationAttributes "{5284A988FFFB3DAC}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{611939CA1D2F141F}" {
+     Weight 0.68
+     SizeSetupStrategy Manual
+     ItemDimensions 10 10 10
+     ItemVolume 200
+     RestingUP Up
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{611939CA1D2F15BD}" {
+     IkSettings {
+      ItemIKSettings "{611939CA1D2F147C}" {
+       MovementSpeedRange 0 3
+       IkSettingsStand 0
+       IkSettingsCrouch 0
+       IkSettingsProne 0
+      }
+      ItemIKSettings "{611939CA1D2F1441}" {
+       Lowered 1
+       InAds 0
+       OutAds 0
+      }
+      ItemIKSettings "{611939CA1D2F1446}" {
+       Jumping 1
+       InAds 0
+       OutAds 0
+      }
+      ItemIKSettings "{611939CA1D2F145D}" {
+       ProneTurn 1
+       IkSettingsStand 0
+      }
+     }
      AnimationInstance "{41AABAE44257A657}anims/workspaces/player/player_main_pistol.asi"
      ExcludeBonesBlend {
      }
      AnimationIKPose ""
      AllowInspection 1
     }
+    CustomAttributes {
+     PreviewRenderAttributes "{611939CA1D2F15DD}" {
+      CameraPreset Right
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 1
+      CameraOffset 0.3 0.3 0
+      ItemRenderRotation 95 270 0
+      FOV 30
+      AspectRatio 3
+      AnimationInstance "{5E862EB6989F8833}anims/workspaces/player/player_inventory_rifle.asi"
+     }
+     CharacterModifierAttributes "{611939CA1D2F1525}" {
+     }
+     HolsteredItemAttributes "{611939CA1D2F1530}" {
+      LinearOffset 0 0 0
+      HiddenHolstered 1
+     }
+    }
     CommonItemType "NONE"
-    m_Size SLOT_2x1
     m_eQuickSlotSize SLOT_2x1
-    m_SlotType SLOT_HAND
     m_bStackable 0
    }
+   WbPlacementFromAttributes 1
   }
-  MeshObject "{51EC93F29BA5F234}" {
+  MeshObject "{611939CA1D2F1695}" {
    Object "{10884F8DC6A653D6}Assets/Weapons/pus/pus1.xob"
+   LODFactors {
+    1 1 1 1
+   }
+   PixelSizeScale 2
   }
-  SCR_MeleeWeaponProperties "{506CED7313494012}" {
-   m_fDamage 0
+  RigidBody "{611939CA1D2F16D0}" {
+   LayerPreset "Prop"
+   Mass 1
+   LinearDamping 0.01
+   AngularDamping 0.01
+   AngularSleepingThreashold 1
+   SimState None
+   ModelGeometry 1
+   CCDRadius 0
+  }
+  SCR_MeleeWeaponProperties "{611939CA1D2F1620}" {
+   m_fDamage 2
+   m_fRange 1.2
    m_fResilienceDamage 40
   }
-  SCR_WeaponAttachmentsStorageComponent "{5260C4469D03696E}" {
-   Attributes SCR_ItemAttributeCollection "{5260C447E3ACEAD0}" {
-    m_Size SLOT_2x1
-    m_SlotType SLOT_WEAPONS_STORAGE
-   }
-  }
-  WeaponComponent "{6D23670EA18BF513}" {
+  WeaponComponent "{611939CA1D2F1082}" {
    components {
-    BaseItemAnimationComponent "{5238E9EC9BC5D973}" {
-     Enabled 1
+    BaseItemAnimationComponent "{611939CA1D2F172D}" {
      AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
      AnimInstance "{278604E4583F2647}Assets/Weapons/Rifles/workspaces/m16_weapon.asi"
-     AnimInjection AnimationAttachmentInfo "{5238BA5363FA0CA9}" {
+     AnimInjection AnimationAttachmentInfo "{611939CA1D2F178B}" {
       AnimGraph ""
+      AnimInstance "{E0E8C4037B3E193D}Assets/Weapons/Grenades/workspaces/Player_ANM8HC.asi"
+      BindingName "Grenade"
      }
-     AnimCommandsToBind {
-      ""
-     }
-     AutoVariablesBind 0
-     AnimVariablesToBind {
-      ""
+     BindWithInjection 1
+     MeshVisibilityConfigurations {
+      MeshesVisibilitySwitchConfig "{611939CA1D2F179D}" {
+       Event "HidePin"
+       Meshes {
+        "SafeClip"
+       }
+      }
+      MeshesVisibilitySwitchConfig "{611939CA1D2F17E3}" {
+       Event "ShowPin"
+       Meshes {
+        "SafeClip"
+       }
+       HideMesh 0
+      }
      }
      DeactivationDelay 2
     }
    }
    useAimingType None
-   WeaponType None
+   isThrowable 1
    AllowedRaise "Only lowered"
-   UIInfo GrenadeUIInfo "{172367262E10E042}" {
+   shouldHandleObstruction 0
+   SoundInt 1000000
+   UIInfo GrenadeUIInfo "{611939CA1D2F1764}" {
     Name "#PS-Weapon_Baton_Name"
     Description "#PS-Weapon_Baton_Description"
     m_bShowWeaponName 1
-    m_MagIndicator SCR_MagazineIndicatorConfiguration "{5874D63F02CE4562}" {
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{611939CA1D2F1760}" {
      m_sOutline ""
+     m_bProgressBar 0
      m_sBackground ""
      m_sProgress ""
     }
@@ -81,9 +145,43 @@ GenericEntity : "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" {
     m_bShowAmmoTypeText 0
     m_eAmmoTypeFlags 0
    }
-   WeaponSlotType "secondary"
+   WeaponSlotType "primary"
+  }
+  ActionsManagerComponent "{611939CA1D2F1004}" {
+   ActionContexts {
+    UserActionContext "{611939CA1D2F10E4}" {
+     ContextName "default"
+     Position PointInfo "{611939CA1D2F10E2}" {
+      Offset 0 0.025 0
+     }
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{611939CA1D2F10D8}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{611939CA1D2F10F6}" {
+      Name "#AR-Inventory_PickUp"
+     }
+    }
+    SCR_EquipWeaponAction "{611939CA1D2F103C}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{611939CA1D2F1022}" {
+      Name "#AR-Inventory_Equip"
+     }
+     "Sort Priority" 1
+    }
+   }
+  }
+  RplComponent "{611939CA1D2F100B}" {
+   "Rpl State Override" Runtime
+  }
+  Hierarchy "{611939CA1D2F1010}" {
   }
  }
- coords 94.717 1.022 91.765
- angleY 16.917
+ coords 99.699 1.203 98.369
+ angleY 79.944
 }

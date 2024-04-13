@@ -60,8 +60,6 @@ class PS_ClothRandomizerComponent : ScriptComponent
 			}
 		} else {
 			int setNum = m_RandomGenerator.RandIntInclusive(0, m_aJacket.Count() - 1);
-			Print(m_aJacket.Count());
-			Print(setNum);
 			SwapCloth(LoadoutJacketArea, m_aJacket.Get(setNum));
 			SwapCloth(LoadoutPantsArea, m_aPants.Get(setNum));
 			SwapCloth(LoadoutBootsArea, m_aFootwear.Get(setNum));

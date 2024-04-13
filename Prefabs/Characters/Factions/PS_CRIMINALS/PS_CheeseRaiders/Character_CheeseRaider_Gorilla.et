@@ -45,6 +45,8 @@ SCR_ChimeraCharacter : "{B8834C17351DE963}Prefabs/Characters/Factions/PS_CRIMINA
     LoadoutSlotInfo Boots {
      Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
     }
+    LoadoutSlotInfo Back {
+    }
     LoadoutSlotInfo Vest {
      Name "Vest"
      AreaType LoadoutVestArea "{5A68E3332ED8203F}" {
@@ -58,6 +60,12 @@ SCR_ChimeraCharacter : "{B8834C17351DE963}Prefabs/Characters/Factions/PS_CRIMINA
      TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et"
      PrefabsToSpawn {
       "{446CD9EBCB531303}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_7N25.et" "{446CD9EBCB531303}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_7N25.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61194272C58D8E13}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_02.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
      }
     }
    }

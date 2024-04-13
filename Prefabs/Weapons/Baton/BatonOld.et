@@ -1,0 +1,106 @@
+GenericEntity : "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" {
+ ID "1F80A73AAE197BBE"
+ components {
+  TimerTriggerComponent "{5934C8C5C9FDF999}" {
+   Enabled 0
+   PROJECTILE_EFFECTS {
+    SpawnParticleEffect "{5CAADB9AD0C61F3F}" {
+     Enabled 0
+    }
+   }
+  }
+  GrenadeMoveComponent "{1F80A73ADE35BFF1}" {
+   Enabled 0
+   IsDangerous 1
+  }
+  InventoryItemComponent "{51FAA3E3CF6F087A}" {
+   Attributes SCR_ItemAttributeCollection "{51FAA3E3C2D19BD4}" {
+    ItemDisplayName WeaponUIInfo "{56CA8ED293FE862B}" {
+     Name "#PS-Weapon_Baton_Name"
+     Description "#PS-Weapon_Baton_Description"
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284A988FFFB3DAC}" {
+     AnimationInstance "{41AABAE44257A657}anims/workspaces/player/player_main_pistol.asi"
+     ExcludeBonesBlend {
+     }
+     AnimationIKPose ""
+     AllowInspection 1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52D2D341931DB0B8}" {
+      CameraDistanceToItem 2
+      ItemRenderRotation 45 0 0
+     }
+     HolsteredItemAttributes "{611939C802E9BCD2}" {
+      LinearOffset 0 0 0
+      HiddenHolstered 1
+     }
+    }
+    CommonItemType "NONE"
+    m_Size SLOT_2x1
+    m_eQuickSlotSize SLOT_2x1
+    m_bStackable 0
+   }
+  }
+  MeshObject "{51EC93F29BA5F234}" {
+   Object "{10884F8DC6A653D6}Assets/Weapons/pus/pus1.xob"
+  }
+  RigidBody "{0F2AA6AEC948C9D6}" {
+   LayerPreset "Prop"
+   Mass 1
+   LinearDamping 0.01
+   AngularDamping 0.01
+   AngularSleepingThreashold 1
+   CCDRadius 0
+  }
+  SCR_MeleeWeaponProperties "{506CED7313494012}" {
+   m_fDamage 0
+   m_fResilienceDamage 40
+  }
+  SCR_WeaponAttachmentsStorageComponent "{5260C4469D03696E}" {
+   Attributes SCR_ItemAttributeCollection "{5260C447E3ACEAD0}" {
+    m_Size SLOT_2x1
+    m_SlotType SLOT_WEAPONS_STORAGE
+   }
+  }
+  WeaponComponent "{6D23670EA18BF513}" {
+   components {
+    BaseItemAnimationComponent "{5238E9EC9BC5D973}" {
+     Enabled 1
+     AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
+     AnimInstance "{278604E4583F2647}Assets/Weapons/Rifles/workspaces/m16_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{5238BA5363FA0CA9}" {
+      AnimGraph ""
+     }
+     AnimCommandsToBind {
+      ""
+     }
+     AutoVariablesBind 0
+     AnimVariablesToBind {
+      ""
+     }
+     DeactivationDelay 2
+    }
+   }
+   useAimingType None
+   WeaponType None
+   AllowedRaise "Only lowered"
+   UIInfo GrenadeUIInfo "{172367262E10E042}" {
+    Name "#PS-Weapon_Baton_Name"
+    Description "#PS-Weapon_Baton_Description"
+    m_bShowWeaponName 1
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{5874D63F02CE4562}" {
+     m_sOutline ""
+     m_sBackground ""
+     m_sProgress ""
+    }
+    m_sAmmoType "#PS-Weapon_Baton_Name"
+    m_bShowAmmoTypeText 0
+    m_eAmmoTypeFlags 0
+   }
+   WeaponSlotType "primary"
+  }
+ }
+ coords 94.717 1.022 91.765
+ angleY 16.917
+}

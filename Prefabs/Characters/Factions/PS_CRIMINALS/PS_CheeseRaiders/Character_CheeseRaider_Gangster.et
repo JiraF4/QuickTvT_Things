@@ -40,6 +40,9 @@ SCR_ChimeraCharacter : "{B8834C17351DE963}Prefabs/Characters/Factions/PS_CRIMINA
     LoadoutSlotInfo Boots {
      Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{E90F2EB67A9CF49A}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_02.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab ""
     }
@@ -57,6 +60,12 @@ SCR_ChimeraCharacter : "{B8834C17351DE963}Prefabs/Characters/Factions/PS_CRIMINA
      TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et"
      PrefabsToSpawn {
       "{892F30500E6E7E04}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Base.et" "{892F30500E6E7E04}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61194272929CED9D}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_02.et"
+     PrefabsToSpawn {
+      "{892F30500E6E7E04}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Base.et" "{892F30500E6E7E04}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Base.et" "{892F30500E6E7E04}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Base.et" "{CDCC313B2FB76FE7}Prefabs/Items/Medicine/Gauze_01.et" "{CDCC313B2FB76FE7}Prefabs/Items/Medicine/Gauze_01.et"
      }
     }
    }

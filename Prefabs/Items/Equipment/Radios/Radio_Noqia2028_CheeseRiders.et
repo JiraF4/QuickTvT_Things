@@ -14,6 +14,15 @@ GenericEntity : "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
      ItemDimensions 5 5 5
      ItemVolume 90
     }
+    CustomAttributes {
+     PreviewRenderAttributes "{563D3423A90ABB56}" {
+      CameraOrbitAngles 85 -7 -15
+      CameraDistanceToItem 1.2
+      CameraOffset 0 0.015 0
+      ItemRenderRotation -10 25 0
+      FOV 7
+     }
+    }
    }
   }
   MeshObject "{5A30BAE7673C63D1}" {
@@ -26,4 +35,5 @@ GenericEntity : "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
    }
   }
  }
+ coords 112.661 1.754 109.299
 }

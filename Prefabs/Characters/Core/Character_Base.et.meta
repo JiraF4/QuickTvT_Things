@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{0F58A05647DA1042}Prefabs/Weapons/Baton/Baton.et"
+ Name "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -9,9 +9,9 @@ MetaFileClass {
   }
   EntityTemplateResourceClass PS4 : PC {
   }
-  EntityTemplateResourceClass PS5 : PC {
-  }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
   }
  }
 }

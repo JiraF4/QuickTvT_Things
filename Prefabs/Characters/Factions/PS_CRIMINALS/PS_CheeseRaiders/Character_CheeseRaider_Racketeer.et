@@ -31,6 +31,8 @@ SCR_ChimeraCharacter : "{337E4A6C719A542B}Prefabs/Characters/Factions/PS_CRIMINA
     LoadoutSlotInfo Boots {
      Prefab "{64B94D8A4D92A4BD}Prefabs/Characters/Footwear/Boots_Altama/Footwear_Altama.et"
     }
+    LoadoutSlotInfo Back {
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
