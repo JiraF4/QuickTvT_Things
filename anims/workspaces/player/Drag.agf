@@ -1,0 +1,265 @@
+AnimSrcGraphFile {
+ Sheets {
+  AnimSrcGraphSheet Drag {
+   Nodes {
+    AnimSrcNodeGroupSelect "ErcLowG 21176" {
+     EditorPos 2.941 -96.817
+     Child "DragIK"
+     Group "Commanding"
+     Column "ErcLow"
+    }
+    AnimSrcNodeGroupSelect "ErcRasG 10352" {
+     EditorPos 3 -95.5
+     Child "DragIK"
+     Group "Commanding"
+     Column "ErcRas"
+    }
+    AnimSrcNodeStateMachine DrangStanceSTM {
+     Tags {
+      "TagGesture"
+     }
+     EditorPos 5.3 -103.9
+     states {
+      AnimSrcNodeState ErcLow {
+       EditorPos 2.9 -101.7
+       Child "ErcLowG 21176"
+       StartCondition "Stance == 0 && Low"
+       IsExit 1
+      }
+      AnimSrcNodeState CroLow {
+       EditorPos 5.3 -102.9
+       Child "CroLowG 21371"
+       StartCondition "Stance == 1 && Low"
+       IsExit 1
+      }
+      AnimSrcNodeState PneLow {
+       EditorPos 7.8 -101.9
+       Child "PneLowG 38691"
+       StartCondition "Stance == 2 && Low"
+       IsExit 1
+      }
+      AnimSrcNodeState ErcRas {
+       EditorPos 2.8 -99.4
+       Child "ErcRasG 10352"
+       StartCondition "Stance == 0 && !Low"
+       IsExit 1
+      }
+      AnimSrcNodeState CroRas {
+       EditorPos 5.3 -98.5
+       Child "CroRasG 14904"
+       StartCondition "Stance == 1 && !Low"
+       IsExit 1
+      }
+      AnimSrcNodeState PneRas {
+       EditorPos 7.8 -99.6
+       Child "PneRasG 27677"
+       StartCondition "Stance == 2 && !Low"
+       IsExit 1
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{58ACF5B6B8045627}" {
+       FromState "ErcLow"
+       ToState "ErcRas"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Low, false)"
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58ACF5B6B8045657}" {
+       FromState "ErcRas"
+       ToState "ErcLow"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Low, true)"
+       BlendFn Linear
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58ACF5B6B8045646}" {
+       FromState "CroLow"
+       ToState "CroRas"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Low, false)"
+       BlendFn Linear
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58ACF5B6B8045675}" {
+       FromState "CroRas"
+       ToState "CroLow"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Low, true)"
+       BlendFn Linear
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58ACF5B6B8045664}" {
+       FromState "PneLow"
+       ToState "PneRas"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Low, false)"
+       BlendFn Linear
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58ACF5B6B8045794}" {
+       FromState "PneRas"
+       ToState "PneLow"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Low, true)"
+       BlendFn Linear
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58AD02C4B8766F16}" {
+       FromState "ErcLow"
+       ToState "CroLow"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Stance, 1)"
+       BlendFn S
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58AD02C4B8766F04}" {
+       FromState "CroLow"
+       ToState "ErcLow"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Stance, 0)"
+       BlendFn S
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58AD02C4B8766F0F}" {
+       FromState "ErcRas"
+       ToState "CroRas"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Stance, 1)"
+       BlendFn S
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58AD02C4B8766F33}" {
+       FromState "CroRas"
+       ToState "ErcRas"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Stance, 0)"
+       BlendFn S
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58DE9CB14107D1E5}" {
+       FromState "ErcLow"
+       ToState "PneLow"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Stance, 2)"
+       BlendFn S
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58DE9CB14107D11A}" {
+       FromState "PneLow"
+       ToState "ErcLow"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Stance, 0)"
+       BlendFn S
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58DE9CB14107D10E}" {
+       FromState "CroLow"
+       ToState "PneLow"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Stance, 2)"
+       BlendFn S
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58DE9CB14107D102}" {
+       FromState "PneLow"
+       ToState "CroLow"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Stance, 1)"
+       BlendFn S
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58DE9CB14107D136}" {
+       FromState "CroRas"
+       ToState "PneRas"
+       Duration "0.3"
+       Condition "HasVariableChangedTo(Stance, 2)"
+       BlendFn S
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58DE9CB14107D12A}" {
+       FromState "PneRas"
+       ToState "CroRas"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Stance, 1)"
+       BlendFn S
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58DE9CB14107D15F}" {
+       FromState "PneRas"
+       ToState "ErcRas"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Stance, 0)"
+       BlendFn S
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{58DE9CB14107D14C}" {
+       FromState "ErcRas"
+       ToState "PneRas"
+       Duration "0.3"
+       StartTime "GetLowerTime()"
+       Condition "HasVariableChangedTo(Stance, 2)"
+       BlendFn S
+       PostEval 1
+      }
+     }
+    }
+    AnimSrcNodeGroupSelect "PneLowG 38691" {
+     EditorPos 7.941 -96.817
+     Child "DragIK"
+     Group "Commanding"
+     Column "PneLow"
+    }
+    AnimSrcNodeGroupSelect "PneRasG 27677" {
+     EditorPos 7.941 -95.517
+     Child "DragIK"
+     Group "Commanding"
+     Column "PneRas"
+    }
+    AnimSrcNodeGroupSelect "CroRasG 14904" {
+     EditorPos 5.441 -95.517
+     Child "DragIK"
+     Group "Commanding"
+     Column "CroRas"
+    }
+    AnimSrcNodeGroupSelect "CroLowG 21371" {
+     EditorPos 5.441 -96.817
+     Child "DragIK"
+     Group "Commanding"
+     Column "CroLow"
+    }
+    AnimSrcNodeIK2 DragIK {
+     EditorPos 5.5 -94
+     Child "PointingRight_CompensateLook"
+     Chains {
+      AnimSrcIkBinding "{5496D84E14A9DFC7}" {
+       IkTarget "DragTarget"
+       IkChain "LeftArm"
+      }
+     }
+     Solver AnimSrcNodeIK2TwoBoneSolver "{6129550C9D3F9CC9}" {
+      SnapRotation 0
+      AllowStretching 0
+     }
+     Version 1
+    }
+   }
+  }
+ }
+}

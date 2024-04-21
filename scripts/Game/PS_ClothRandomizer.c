@@ -27,7 +27,7 @@ class PS_ClothRandomizerComponent : ScriptComponent
 		if (!Replication.IsServer())
 			return;
 		
-		GetGame().GetCallqueue().CallLater(LateInit, 1000, false, GameEntity.Cast(owner));
+		GetGame().GetCallqueue().CallLater(LateInit, 5000, false, GameEntity.Cast(owner));
 	}
 	
 	void LateInit(IEntity owner)

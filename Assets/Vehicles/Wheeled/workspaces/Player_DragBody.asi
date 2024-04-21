@@ -1,0 +1,79 @@
+AnimSetInstanceSource "{612A12F0B09D3439}" {
+ Template "{7F633C1C12A72901}Assets/Vehicles/Wheeled/workspaces/Vehicles_Wheeled_Template.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousOut" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Idle" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousOut" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousIn" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousOut" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousOut" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousIdle" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousIdle" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousOut" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousOut" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Idle" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Idle" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Idle" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousIdle" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIdle" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIdle" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousIdle" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.UnconsciousIn" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIn" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIn" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousIn" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousIn" {
+   Resource "{DC068FF78D99F18F}anims/anm/player/vehicles/Ambulances/anm/p_ambulance_patient_injured_loop_R.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{5DC3656B0EF64C8C}" {
+ }
+}

@@ -11,7 +11,7 @@ SCR_ChimeraCharacter : "{337E4A6C719A542B}Prefabs/Characters/Factions/PS_CRIMINA
     m_Image "{F001167B51DF1FEA}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Base.edds"
    }
   }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

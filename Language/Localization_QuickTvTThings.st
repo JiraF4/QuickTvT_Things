@@ -286,5 +286,29 @@ StringTable {
    Author "zazul"
    LastChanged "zazul"
   }
+  CustomStringTableItem "{612A3156E7194927}" {
+   Id "PS-UserActionDrag"
+   Target_en_us "Drag"
+   Target_ru_ru "Тащить"
+   Modified 1630220442
+   Author "zazul"
+   LastChanged "zazul"
+  }
+  CustomStringTableItem "{612A3156473F5D0C}" {
+   Id "PS-UserActionUnavailableCrouchOnly"
+   Target_en_us "Crouch only"
+   Target_ru_ru "Только в приседе"
+   Modified 1630220439
+   Author "zazul"
+   LastChanged "zazul"
+  }
+  CustomStringTableItem "{612A315627F06F63}" {
+   Id "PS-UserActionUnavailableRagdoll"
+   Target_en_us "Ragdoll"
+   Target_ru_ru "Ragdoll"
+   Modified 1630220436
+   Author "zazul"
+   LastChanged "zazul"
+  }
  }
 }

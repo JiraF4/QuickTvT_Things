@@ -1,0 +1,59 @@
+PS_DragVehicle {
+ ID "612967C09B4453E9"
+ components {
+  MeshObject "{612967C0DDD41EE5}" {
+   PixelSizeScale 10
+  }
+  RigidBody "{612967C0DDD41E3C}" {
+   Mass 1000
+   SimState Collision
+   ModelGeometry 1
+  }
+  SCR_BaseCompartmentManagerComponent "{612967C0DDD41E54}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Carried {
+     PassengerPositionInfo EntitySlotInfo s1 {
+      Offset 0 -0.05 0.4
+     }
+     ForcedFreeLook 1
+     SeatType 1
+     DoorInfoList {
+      CompartmentDoorInfo "{612967C0DDD41E4A}" {
+       EntryPositionInfo PointInfo "{612967C0DDD41E48}" {
+       }
+      }
+     }
+     CanOccupantEquipGadget 0
+    }
+   }
+  }
+  SCR_VehicleCameraDataComponent "{612967C0DDD4189E}" {
+   m_fHeight 0.5
+   m_fBobScale 0
+   m_fShakeScale 0
+   m_fDist_Max 2
+   m_fDist_Min 1
+   m_fDist_Desired 1.5
+   m_fFOV 74
+   m_pCameraAlignData SCR_VehicleCameraAlignment "{612967C0DDD418B8}" {
+   }
+  }
+  VehicleAnimationComponent "{612967C0DDD41860}" {
+   AnimGraph "{66618A6A119CAD93}Assets/Vehicles/Wheeled/workspaces/Vehicles_Wheeled_Graph.agr"
+   AnimInstance "{DAA855714EBFE43E}Prefabs/Vehicles/Core/Vehicles_Base_Empty.asi"
+   AnimInjection AnimationAttachmentInfo "{612967C0DDD4182D}" {
+    AnimGraph "{66618A6A119CAD93}Assets/Vehicles/Wheeled/workspaces/Vehicles_Wheeled_Graph.agr"
+    AnimInstance "{D53A9C02EBAB4847}Assets/Vehicles/Wheeled/workspaces/Player_DragBody.asi"
+    BindingName "Vehicle"
+   }
+  }
+  NwkMovementComponent "{6129750C43F9381E}" {
+  }
+  RplComponent "{612967C0DDD41876}" {
+   "Rpl State Override" Runtime
+  }
+  Hierarchy "{612967C0DDD4187D}" {
+  }
+ }
+ coords 107.518 1 89.307
+}
